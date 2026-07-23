@@ -133,13 +133,8 @@ nextBtn.addEventListener("click" , () =>{
 let selected = document.querySelector('input[name="r1"]:checked');
 
 if(!selected){
-    alert("enter any option")
+    // alert("enter any option")
 }
-// else{
-    // console.log("then")
-    //   console.log(selected.value);
-// }
-
 
 
 if(selected.value === questions[`${num}`].correctOption){
@@ -166,7 +161,7 @@ id="card1">
   </div>
   <div style="width: 100%;
   margin-left: 5%;"
-  class="py-3">
+  class="py-3 imgdiv">
     <img src="./images/win.png" alt="win-png"
     style="width: 85%;
       border-radius: 6%;">
@@ -180,14 +175,14 @@ document.body.append(div);
       let div = document.createElement("div");
 div.innerHTML = `<div class="card mt-3 d-block py-0" style="width: 18rem;"
 id="card1">
-<div>
+<div class="imgdiv">
   <img src="./images/ohNO.png" class="card-img-top " alt="..." 
   style="width: 100%;
   border-radius: 20%;">
   </div>
   <div style="width: 100%;
   margin-left: 5%;"
-  class="py-3">
+  class="py-3 imgdiv">
     <img src="./images/lost.png" alt="win-png"
     style="width: 85%;
       border-radius: 10%;">
