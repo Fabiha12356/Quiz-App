@@ -5,24 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
 </head>
 <body>
-    <h1>QUIZ APP</h1>
-    <p id="Ques"> what's your name</p>
-    <input type="radio" name="r1" id="opt1">
-    <label id="labl1"> fabiha</label>
-    <br>
-    <input type="radio" name="r1" id="opt2">
-    <label id="labl2">hamna</label>
-    <br>
-    <input type="radio" name="r1" id="opt3">
-    <label id="labl3">areeba</label>
-    <br>
-    <br>
-    <button id="btn">Next</button>
+
+<div class="card mt-3 d-block py-5" style="width: 18rem;"
+id="card1">
+<div>
+  <img src="./images/quiz.png" class="card-img-top " alt="..." 
+  style="width: 100%;">
+  </div>
+  <div style="width: 100%;"
+  class="py-5">
+    <button id="StartBtn">Start</button>
+  </div>
+</div>
+
+
+
+
+
+<div class="card mt-3 d-none py-0" style="width: 18rem;"
+id="card2">
+  <div>
+  <img src="./images/logo.png" class="card-img-top" alt="...">
+   </div>
+   <div id="quesdiv">
+     <p id="Ques"></p>
+   </div>
+  <div style="display: flex !important;
+  flex-direction: column !important;
+  gap: 5px;">
+   <div class="inputs">
+     <input type="radio" name="r1" id="opt1" value="">
+    <label id="labl1"></label>
+    </div>
+    <div class="inputs">
+    <input type="radio" name="r1" id="opt2" value="">
+    <label id="labl2"></label>
+    </div>
+    <div class="inputs">
+    <input type="radio" name="r1" id="opt3" value="">
+    <label id="labl3"></label>
+    </div>
+  </div>
+   <div style="width: 100%;">
+    <button
+    style="width: 70%;
+    margin-left: 13%;
+    background-color: white !important;"
+    id="btn">Next</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
     <script src="./app.js"></script>
+    <script src="./bootstrap.js"></script>
 </body>
 </html>

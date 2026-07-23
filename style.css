@@ -1,0 +1,104 @@
+
+body{
+      background: linear-gradient(to right,#1d7bff91,white) !important;
+}
+.card{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+    margin-left: 40% !important;
+    height: 85vh !important;
+    border: 3px solid black !important;
+    border-radius: 10% !important;
+    background-color: #1AA0FC !important;
+}
+#quesdiv{
+    height: 15vh;
+    width: 85%;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 15%;
+    background-color: white;
+    color: black;
+box-shadow: 0 8px 20px rgba(26, 160, 252, 0.30) !important;
+font-size: 18px;
+color: #1F2937;
+}
+
+.inputs{
+    border: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+    /* border: 1px solid black !important; */
+    width: 100%;
+    height: 7vh;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 15% !important;
+    background-color: white !important;
+    color: black !important;
+    cursor:pointer !important;
+    transition:.3s !important;
+}
+.inputs:hover{
+      transform:translateY(-2px) !important;
+    box-shadow:0 10px 20px rgba(0,0,0,.18) !important;
+}
+.inputs.selected{
+    background:#E8F1FF;
+    border:2px solid #1D7CFF;
+}
+.parent1{
+    display: block;
+}
+/* .parent2{
+    display: none;
+} */
+
+
+.none{
+    display: none !important;
+}
+.block{
+    display: block;
+}
+
+
+
+button{
+    width: 170px;
+    height: 48px;
+    border: none !important;
+    border-radius: 14px !important;
+    background: #ffffff !important;
+    color: #0E4CB5 !important;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 18% !important;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.18),
+        inset 0 1px 0 rgba(255,255,255,0.9) !important;
+
+    transition: all .3s ease;
+
+
+    background: linear-gradient(135deg,#1D7CFF,rgba(255, 255, 255, 0.637)) !important;
+color: white !important;
+
+
+     transition: all .3s ease;
+     }
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow:
+        0 12px 25px rgba(0,0,0,0.25);
+}
+
+button:active{
+    transform: scale(0.96);
+}
